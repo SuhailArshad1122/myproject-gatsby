@@ -1,0 +1,31 @@
+.narbar {
+    background-color: darkgoldenrod;
+    text-align: center;
+    padding: 11px; 
+    color: black;   
+}
+
+.narbar >a {
+    background-color: darkgoldenrod;
+    color: beige;
+    padding:  5px;
+    margin: 1px; 
+    border: 3px solid;
+    border-radius: 15px;
+}
+.narbar >a:hover {
+    color: wheat;
+    background-color: darkgoldenrod;
+    border-width: thick;
+    animation: forwards; 
+    box-shadow: inset;   
+}
+
+/* position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 0 20px;
+    text-align: center; */
