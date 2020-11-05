@@ -65,33 +65,33 @@ exports.onCreatePage = async ({ page, actions }) => {
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // >>>> Below is code for step05-06 from Panacloud
 
-// const arr = [
-//     {name: "Fruit", desc: ""}
-// ]
+const arr = [
+    {name: "Fruit", desc: ""}
+]
 
-// exports.createPages = async function ({ actions}) {
+exports.createPages = async function ({ actions}) {
 
-//     actions.createPage({
-//         path: "fruits",
-//         component: require.resolve(`./src/pages/templates/fruits.tsx`),
-//         context: { 
-//             // Data passed to context is available
-//             // in pageContext props of the template component
-//             name: "Mango",
-//             desc: "This is some description of mango"
-//          },
-//     });
+    actions.createPage({
+        path: "fruits",
+        component: require.resolve(`./src/pages/templates/fruits.tsx`),
+        context: { 
+            // Data passed to context is available
+            // in pageContext props of the template component
+            name: "Mango",
+            desc: "This is some description of mango"
+         },
+    });
 
-//     actions.createPage({
-//         path: "alpha",
-//         component: require.resolve(`./src/pages/templates/alpha.tsx`),
-//         context: { 
-//             // Data passed to context is available
-//             // in pageContext props of the template component
-//             company: "Alpha Company ",
-//             companyInfo: "Alpha Production Ltd., Lahore"
-//          },
-//     });
+    actions.createPage({
+        path: "alpha",
+        component: require.resolve(`./src/pages/templates/alpha.tsx`),
+        context: { 
+            // Data passed to context is available
+            // in pageContext props of the template component
+            company: "Alpha Company ",
+            companyInfo: "Alpha Production Ltd., Lahore"
+         },
+    });
 
-//     console.log("End of Gatsby Node File");
-// }
+    console.log("End of Gatsby Node File");
+}
