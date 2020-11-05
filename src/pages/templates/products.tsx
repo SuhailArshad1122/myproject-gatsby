@@ -7,6 +7,6 @@ export default function Products({ pageContext }) {
     const {itemDetails} = pageContext
     return <Layout>         
         {/* <h1>{itemDetails.title}</h1> */}
-        <p> { documentToReactComponents(itemDetails.description.json) }</p>
+        {/* <p> { documentToReactComponents(itemDetails.description.json) }</p> */}
         </Layout>
 }
