@@ -9,7 +9,7 @@ import Main from "./component/main"
 const Product = () => {
   return (
     <Layout>
-        <h1>See Products</h1>
+        <h1>See Products </h1>
     <Link to="/product/page1">Product 1</Link>
     <br />
     <Link to="/product/page2">Product 2</Link>
